@@ -9,7 +9,7 @@ The Open Round of the Ninth China National Linguistics Olympiad (CNOL) was held 
 |Karbi|Jin Xu||
 |Yiddish|Yuyang Liu, Lin Ye|Favorite|
 ## Invitational Round
-The Invitational Round of the Ninth China National Linguistics Olympiad was held at Kang Chiao International School, Suzhou, Zhejiang, China from July 31 to August 3, 2020.
+The Invitational Round of the Ninth CNOL was held at Kang Chiao International School, Suzhou, Zhejiang, China from July 31 to August 3, 2020.
 ### Individual Contest
 |Problem|Author|Solver's Choice|
 |---|---|---|
