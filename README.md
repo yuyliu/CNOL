@@ -32,7 +32,7 @@ The CNOL PC is a body composed of people studying in different countries and at 
 |Xinlu Xu|2012--2015|
 ## License
 Files within the "otf" folder have their own licenses.
-To view these licenses, check /otf/README.md.
+To view these licenses, check [otf/README.md](https://github.com/yuyang-liu/cnol/tree/master/otf).
 
 Files within the "pdf" folder are contributed by CNOL problem authors.
 The author of each problem is credited at the end of that problem.
