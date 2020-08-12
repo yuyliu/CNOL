@@ -35,7 +35,7 @@
 \def \Nos {numbers}
 \def \Aeq {an arithmetic equality}
 \def \Aes {arithmetic equalities}
-\def \Eqs {equalities}% (1--\arabic{index})}
+\def \Eqs {equalities}
 \def \Wds {words}
 \def \Wcs {word combinations}
 \def \Sfs {sentence fragments}
@@ -71,17 +71,6 @@
 \def \Stn {Number}
 \def \Prn {Problem \#}
 \def \Pgn {Page \#}
-\def \Dne {DNE}
-\def \Otw {otherwise}
-\def \Aft #1{after #1}
-\def \Nas {a nasal}
-\def \Nsl {nasalization}
-\def \Stm {stem}
-\def \Plr {plural}
-\def \Acc {accusative}
-\def \Cmp {comparative}
-\def \Loc {locative}
-\def \Nom {nominative}
 % Sentences
 \def \Rule {You should describe any patterns or rules that you identified in the data unless the problem explicitly instructs you otherwise.} % {Unless stated differently, describe any patterns or rules that you identified in the data.}
 \def \Gbis #1{Here is #1:}
@@ -123,25 +112,7 @@
 \def \ZHO {Chinese}
 \def \LATN {the Latin script}
 % Countries
-\def \AU {Australia}
-\def \BD {Bangladesh}
-\def \BR {Brazil}
-\def \CM {Cameroon}
 \def \CN {China}
-\def \DE {Germany}
-\def \ID {Indonesia}
-\def \IL {Israel}
-\def \IN {India}
-\def \KH {Cambodia}
-\def \MM {Myanmar}
-\def \MN {Mongolia}
-\def \MX {Mexico}
-\def \NG {Nigeria}
-\def \PG {Papua New Guinea}
-\def \RU {Russia}
-\def \TZ {Tanzania}
-\def \US {the USA}
-\def \VN {Vietnam}
 % People
 \def \HhLi {\mbox{Huihan Li}}
 \def \YeLq {\mbox{Ye Liu}}
