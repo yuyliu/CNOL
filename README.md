@@ -31,9 +31,6 @@ The CNOL PC is a body composed of people studying in different countries and at 
 |Qitong Cao|2016--2017|
 |Xinlu Xu|2012--2015|
 ## License
-Files within the "otf" folder have their own licenses.
-To view these licenses, check [otf/README.md](https://github.com/yuyang-liu/cnol/tree/master/otf).
-
 Files within the "pdf" folder are contributed by CNOL problem authors.
 The author of each problem is credited at the end of that problem.
 These files are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
