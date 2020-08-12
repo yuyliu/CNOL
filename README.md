@@ -8,7 +8,7 @@ For other information about CNOL (e.g., FAQs, announcements, registration, etc.)
 ## Problem Committee
 The preparation of the problem set for CNOL, just like IOL, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
 This is the duty of the CNOL Problem Committee (PC).
-The CNOL PC is a body composed of people studying at different countries and institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs and IOLs.
+The CNOL PC is a body composed of people studying at different countries and institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs or IOLs.
 ### Current Members
 |Name|Affiliation|Years|
 |---|---|---|
