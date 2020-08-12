@@ -1,5 +1,5 @@
 # Before 2020
-The Invitational Round of the Fourth China National Linguistics Olympiad (CNOL) was held at Tsinghua University, Beijing, China from May 30 to May 31, 2015.
+The Invitational Round of the Fourth CNOL was held at Tsinghua University, Beijing, China from May 30 to May 31, 2015.
 
 The Invitational Round of the Fifth CNOL was held at Tsinghua University, Beijing, China from May 28 to May 29, 2016.
 
