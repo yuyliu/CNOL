@@ -21,4 +21,4 @@ The jury awarded 268 medals (44 gold, 79 silver, and 145 bronze) out of 403 part
 ### Team Contest
 |Problem|Author|
 |---|---|
-|Zaiwa, the Fraser Script|Jin Xu, Yuyang Liu|
+|Zaiwa, the Fraser script|Jin Xu, Yuyang Liu|
