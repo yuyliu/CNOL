@@ -1,2 +1,2 @@
 # CNOL
-Source codes for the China National Linguistics Olympiad (2020--).
+Source code and output files of the problem and solution sets, in Chinese and in English, for the China National Linguistics Olympiad since 2020.
