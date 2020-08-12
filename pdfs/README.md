@@ -1,4 +1,4 @@
-# Invitational Round Venues
+# Before 2020
 |Year|Dates|Location|
 |---|---|---|
 |2015|5/30--5/31|Tsinghua University, Beijing, China|
