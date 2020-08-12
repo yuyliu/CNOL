@@ -1,4 +1,4 @@
-# Invitational Round Venue
+# Invitational Round Venues
 |Year|Dates|Location|
 |---|---|---|
 |2015|5/30--5/31|Tsinghua University, Beijing, China|
