@@ -11,7 +11,7 @@ This is the duty of the CNOL Problem Committee (PC).
 The CNOL PC is a body composed of people studying at different countries and institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past IOLs.
 ### Current PC Members
 |Name|Affiliation|Joining Year|
-|---|---|
+|---|---|---|
 |Huihan Li|Princeton Univeristy|2017|
 |Ye Liu|Cornell University|2020|
 |Yuyang Liu|University of Massachusetts, Amherst|2018|
@@ -25,8 +25,8 @@ The CNOL PC is a body composed of people studying at different countries and ins
 ### Past PC Members
 |Name|Years|
 |---|---|
+|Ruiheng Bai|2018--2020|
 |Qitong Cao|2016--2017|
-|Alexander Wade|2015|
 |Xinlu Xu|2012--2015|
 ## License
 Files within the "code" folder are contributed by Yuyang Liu and Jin Xu.
