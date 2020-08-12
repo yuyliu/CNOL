@@ -56,7 +56,7 @@
 \def \Nos {数}
 \def \Aeq {算术等式}
 \def \Aes {算术等式}
-\def \Eqs {等式}%（1—\arabic{index}）}
+\def \Eqs {等式}
 \def \Wds {单词}
 \def \Wcs {词组}
 \def \Sfs {句子片段}
@@ -92,17 +92,6 @@
 \def \Stn {编号}
 \def \Prn {题号}
 \def \Pgn {页码}
-\def \Dne {不存在}
-\def \Otw {其他情况}
-\def \Aft #1{在#1后}
-\def \Nas {鼻音}
-\def \Nsl {鼻音化}
-\def \Stm {词根}
-\def \Plr {复数}
-\def \Acc {宾格}
-\def \Cmp {比较格}
-\def \Loc {方位格}
-\def \Nom {主格}
 % Sentences
 \def \Rule {除非题目明确说明你无需这样做，你应描述你在语料中发现的任何规律或规则。}
 \def \Gbis #1{以下是一个#1：}
@@ -144,25 +133,7 @@
 \def \ZHO {汉语}
 \def \LATN {拉丁字母}
 % Countries
-\def \AU {澳大利亚}
-\def \BD {孟加拉国}
-\def \BR {巴西}
-\def \CM {喀麦隆}
 \def \CN {中国}
-\def \DE {德国}
-\def \ID {印度尼西亚}
-\def \IL {以色列}
-\def \IN {印度}
-\def \KH {柬埔寨}
-\def \MM {缅甸}
-\def \MN {蒙古}
-\def \MX {墨西哥}
-\def \NG {尼日利亚}
-\def \PG {巴布亚新几内亚}
-\def \RU {俄罗斯}
-\def \TZ {坦桑尼亚}
-\def \US {美国}
-\def \VN {越南}
 % People
 \def \HhLi {\mbox{李惠涵}}
 \def \YeLq {\mbox{刘冶}}
