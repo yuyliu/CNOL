@@ -5,7 +5,6 @@ No prior knowledge of linguistics or second languages is required to participate
 
 This repository posts the source code and output pdfs for the problem and solution sets, in Chinese and in English, of the CNOL since 2020.
 For other information about the CNOL (e.g., FAQs, announcements, registration, etc.), visit [the CNOL website](http://www.ioling.org.cn), [the International Teenager Competition and Communication Center (ITCCC) website](http://www.it3c.org), or the ITCCC WeChat Official Account.
-
 ## License
 Files within the "code" folder are contributed by Yuyang Liu and Jin Xu.
 These files referenced and made huge changes from Ivan Derzhanski's code for the IOL and Minsheng Liu's code for Chinese translation of the IOL, and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
