@@ -1,17 +1,16 @@
 # CNOL
 The China National Linguistics Olympiad (CNOL) is the contest through which Team China of the International Linguistics Olympiad (IOL) and the Asia-Pacific Linguistics Olympiad (APLO) is chosen, and has been held annually since 2012. 
-Each year, high school linguists living or studying in China compete to solve linguistic problems covering descriptive, mathematical, and theoretical linguistics. 
-No prior knowledge of linguistics or second languages is required to participate in this contest.
+"CN" is the ISO 3166 country code for China, and "OL" is deliberately chosen not to correspond to the name of the contest in Chinese or in English.
 
-"CN" is the ISO 3166 country code for China.
-"OL" is deliberately chosen not to correspond to the name of the contest in any particular working language of CNOL.
+Each year, high school linguists living or studying in China compete to solve linguistic problems covering descriptive, mathematical, and theoretical linguistics at CNOL. 
+No prior knowledge of linguistics or second languages is required to participate in this contest.
 
 This repository posts the source code (in the "tex" folder) and output documents (in the "pdf" folder) of the problem and solution sets, in Chinese and in English, for CNOL since 2020.
 For other information about CNOL (e.g., FAQs, announcements, registration, etc.), visit [the CNOL website](http://www.ioling.org.cn), [the International Teenager Competition and Communication Center (ITCCC) website](http://www.it3c.org), or the ITCCC WeChat Official Account.
 ## Problem Committee
-The preparation of the problem set for CNOL, just like IOL, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
+The preparation of the problem set for CNOL, just like IOL and APLO, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
 This is the duty of the CNOL Problem Committee (PC).
-The CNOL PC is a body composed of people studying at different countries and institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs or IOLs.
+The CNOL PC is a body composed of people studying in different countries and at different institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs or IOLs.
 ### Current Members
 |Name|Affiliation|Years|
 |---|---|---|
