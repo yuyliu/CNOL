@@ -1,2 +1,2 @@
-# cnol
-China National Linguistics Olympiad
+# CNOL
+Source codes for the China National Linguistics Olympiad (2020--).
