@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}
+% Packages and settings
+\usepackage{a4wide}
+\usepackage{alphalph}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{calc}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\usepackage{multirow}
+\setmainfont[
+  Path=otf/Latn/,
+  Extension=.otf,
+  BoldFont=cmunbx,
+  ItalicFont=cmunti,
+  BoldItalicFont=cmunbi,
+  SlantedFont=cmunsl,
+  BoldSlantedFont=cmunbl,
+  FontFace={rb}{n}{Font=cmunrb},
+  Ligatures=TeX
+]{cmunrm}
+\setsansfont{CMU Sans Serif}
+\DeclareRobustCommand{\rbseries}{\fontseries{rb}\selectfont}
+\DeclareTextFontCommand{\textrb}{\rbseries}
+% Page styles
+\makeatletter
+\def \ps@pageone {
+  \let \@oddfoot \@empty
+  \def \@oddhead {\hfill{\Huge\bfseries\Iso}}}
+\def \ps@pagetwo {
+  \let \@oddfoot \@empty
+  \def \@oddhead {%
+    {\slshape\small{%
+      \begin{tabular}[t]{@{}l@{}}
+      \Rnh\\
+      \Stt\\
+      \end{tabular}}}
+    \hfill\thepage}}
+\newalphalph{\AlphMult}[mult]{\@Alph}{26}
+\def \AlphAlphAlph #1{%
+  \expandafter\@AlphAlphAlph\csname c@#1\endcsname}
+\def \@AlphAlphAlph #1{\AlphMult{#1}}
+\makeatother
+\AddEnumerateCounter{\AlphAlphAlph}{\@AlphAlphAlph}{aa}
+% Booleans
+\newif\ifsamp\sampfalse
+\newif\ifopen\openfalse
+\newif\ifteam\teamfalse
+\newif\ifprob\probfalse
+% Counters
+\newcounter{index}[section]
+\newcounter{jndex}[section]
+% Commands
+\newcommand \C [1]{{\sffamily#1}}
+\newcommand \D [1]{{\rbseries#1}}
+\newcommand \E [1]{{\itshape#1}}
+\newcommand \F [1]{{\bfseries\itshape#1}}
+\newcommand \M [1]{\def \Wid {\widthof{#1}}}
+\newcommand \R [1]{\parbox{\Wid}{\raggedleft#1}}
+\def \W {\widthof{\Large$\bigtriangleup$}}
+\newcommand \Na
+{\noindent\ifx\Sp\empty\rlap{\raise.2ex\hbox{\parbox{\widthof{\Large$\bigtriangleup$}}{\hfil(!)\hfil}}}\qquad\else{\raise.2ex\hbox{\parbox{\widthof{\Large$\bigtriangleup$}}{\hfil(!)\hfil}}}\quad\fi}
+\newcommand \Nb {\noindent\ifx\Sp\empty\rlap{\ooalign{\hfil\raise.2ex\hbox{\bfseries!}\hfil\crcr\Large$\bigtriangleup$}}\qquad\else{\ooalign{\hfil\raise.2ex\hbox{\bfseries!}\hfil\crcr\Large$\bigtriangleup$}}\quad\fi}
+\newcommand \By [1]{\unskip\nobreak\hfil\penalty100\hbox{}\nobreak\hfill{\hbox{\qquad{\itshape\Md#1}}}\par}
+\newcommand \Rnd {\ifopen\Opr\else\Itr\fi}
+\newcommand \Con {\ifteam\Tmc\else\Ivc\fi}
+\newcommand \Cht {\ifprob\ifteam\Pro\else\Prs\fi\else\ifteam\Sol\else\Sls\fi\fi}
+\newcommand \Ara {\stepcounter{index}\arabic{index}\Pt}
+\newcommand \Gap {\stepcounter{index}\underline{\hbox to 1in{\hfil\arabic{index}\hfil}}}
+\newcommand \Lat {\stepcounter{jndex}\Alph{jndex}\Pt}
+\newcommand \Ante {%
+  \ifprob\probfalse\else%
+    \ifx\Sp\empty
+      \setlength{\labelsep}{0pt}%
+      \setlength{\leftmargini}{2em}%
+      \setlength{\leftmarginii}{2em}%
+      \setlength{\leftmarginiii}{2em}%
+      \setlength{\leftmarginiv}{2em}%
+      \setlength{\leftmarginv}{2em}%
+      \setlength{\leftmarginvi}{2em}%
+      \setlength{\parindent}{2em}\fi%
+    \probtrue\fi%
+  \def \Mtt {\ifsamp\Tsp{\Rnd}\else\Tct{\Rnd}{\Xth}\fi}%
+  \def \Stt {\ifopen\Cht\else\Doc{\Con}{\Cht}\fi}%
+  \def \Rnh {\ifsamp\Hsp{\Rnd}\else%
+    \Hct{\Rnd}{\Xth}\Sp\Pa{\Ann}\fi}
+  \thispagestyle{pageone}%
+  \pagestyle{pagetwo}%
+  \begin{center}%
+  {\LARGE\Mtt\par}\vskip 1em%
+  \ifsamp\else%
+    {\Large\mbox{\Mdy{\Men}{\Die}{\Ann}\par}}\vskip 1em\fi%
+  {\large\Stt}%
+  \end{center}%
+  \par\vskip .5em%
+  \setcounter{page}{1}%
+  \setcounter{section}{0}}
+\newcommand \Prob {%
+  \stepcounter{section}%
+  \paragraph{\Pri{\thesection}\Sp\Pa{\Pts{20}}\Pt}}
+\newcommand \Soln {%
+  \stepcounter{section}%
+  \paragraph{\Pri{\thesection}\Pt}}
+\newcommand \Post {%
+  \bigskip\vfill
+  \ifsamp\else\ifteam\else\hrule\fi\fi
+  \begin{center}
+  \ifsamp\else\ifteam\else
+    {\bfseries\Eds\Cl}\Sp\Edts
+    \medskip
+    
+  \fi\fi
+  {\bfseries\Txt\Cl}\Sp\Trls
+  \medskip
+  
+  \large\Gdlk
+  \end{center}}
+% Environments
+\newenvironment{assign}{%
+  \renewcommand \labelenumi {\bfseries\Pa{\alph{enumi}}}%
+  \begin{enumerate}}{%
+  \end{enumerate}}
+\newenvironment{detail}{%
+  \begin{enumerate}[
+    parsep=0pt,%2pt plus 1pt minus 1pt,
+    itemsep=0pt,%2pt plus 1pt minus 1pt,
+    label=\arabic*\Pt]%
+  \setcounter{enumii}{\value{index}}}{%
+  \ifnum0=\the\value{enumii}%
+    \setcounter{index}{\value{enumi}}%
+  \else
+    \setcounter{index}{\value{enumii}}\fi%
+  \end{enumerate}}
+\newenvironment{select}{%
+  \begin{enumerate}[
+    parsep=0pt,%2pt plus 1pt minus 1pt,
+    itemsep=0pt,%2pt plus 1pt minus 1pt,
+    label=\AlphAlphAlph*\Pt]%
+  \setcounter{enumii}{\value{jndex}}}{%
+  \ifnum0=\the\value{enumii}%
+    \setcounter{jndex}{\value{enumi}}%
+  \else%
+    \setcounter{jndex}{\value{enumii}}\fi%
+  \end{enumerate}}
