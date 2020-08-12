@@ -3,8 +3,8 @@
 The Open Round of the Ninth China National Linguistics Olympiad (CNOL) was held on April 25, 2020.
 |Problem|Author|Solver's Choice|
 |---|---|---|
-|Etruscan|Yuyang Liu||
-|Greek, Ancient|Zixiong Liu|Easiest|
+|Etruscan, the Old Italic script|Yuyang Liu||
+|Ancient Greek|Zixiong Liu|Easiest|
 |Ikoma|Ziche Chen|Hardest|
 |Karbi|Jin Xu||
 |Yiddish|Yuyang Liu, Lin Ye|Favorite|
@@ -21,4 +21,4 @@ The Invitational Round of the Ninth China National Linguistics Olympiad was held
 ### Team Contest
 |Problem|Author|
 |---|---|
-|Zaiwa|Jin Xu, Yuyang Liu|
+|Zaiwa, the Fraser Script|Jin Xu, Yuyang Liu|
