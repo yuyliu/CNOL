@@ -9,7 +9,7 @@ For other information about CNOL (e.g., FAQs, announcements, registration, etc.)
 The preparation of the problem set for CNOL, just like IOL, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
 This is the duty of the CNOL Problem Committee (PC).
 The CNOL PC is a body composed of people studying at different countries and institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs and IOLs.
-### Current PC Members
+### Current Members
 |Name|Current Affiliation|Years|
 |---|---|---|
 |Huihan Li|Princeton Univeristy|2017--|
@@ -22,7 +22,7 @@ The CNOL PC is a body composed of people studying at different countries and ins
 |Lin Ye|New York University, Abu Dhabi|2019--|
 |Shuyue Yu|California Institute of Technology|2020--|
 |Linghui Zheng|Peking University|2020--|
-### Past PC Members
+### Past Members
 |Name|Years|
 |---|---|
 |Ruiheng Bai|2018--2020|
