@@ -3,6 +3,9 @@ The China National Linguistics Olympiad (CNOL) is the contest through which Team
 Each year, high school linguists living or studying in China compete to solve linguistic problems covering descriptive, mathematical, and theoretical linguistics. 
 No prior knowledge of linguistics or second languages is required to participate in this contest.
 
+"CN" is the ISO 3166 country code for China.
+"OL" is deliberately chosen not to correspond to the name of the contest in any particular working language of CNOL.
+
 This repository posts the source code (in the "tex" folder) and output documents (in the "pdf" folder) of the problem and solution sets, in Chinese and in English, for CNOL since 2020.
 For other information about CNOL (e.g., FAQs, announcements, registration, etc.), visit [the CNOL website](http://www.ioling.org.cn), [the International Teenager Competition and Communication Center (ITCCC) website](http://www.it3c.org), or the ITCCC WeChat Official Account.
 ## Problem Committee
