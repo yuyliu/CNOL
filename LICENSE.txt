@@ -108,7 +108,7 @@ Section 1 -- Definitions.
 
   g. License Elements means the license attributes listed in the name
      of a Creative Commons Public License. The License Elements of this
-     Public License are Attribution and ShareAlike.
+     Public License are Attribution, NonCommercial, and ShareAlike.
 
   h. Licensed Material means the artistic or literary work, database,
      or other material to which the Licensor applied this Public
@@ -229,7 +229,9 @@ Section 2 -- Scope.
           Rights, whether directly or through a collecting society
           under any voluntary or waivable statutory or compulsory
           licensing scheme. In all other cases the Licensor expressly
-          reserves any right to collect such royalties.
+          reserves any right to collect such royalties, including when
+          the Licensed Material is used other than for NonCommercial
+          purposes.
 
 
 Section 3 -- License Conditions.
@@ -306,7 +308,8 @@ apply to Your use of the Licensed Material:
 
   a. for the avoidance of doubt, Section 2(a)(1) grants You the right
      to extract, reuse, reproduce, and Share all or a substantial
-     portion of the contents of the database;
+     portion of the contents of the database for NonCommercial purposes
+     only;
 
   b. if You include all or a substantial portion of the database
      contents in a database in which You have Sui Generis Database
