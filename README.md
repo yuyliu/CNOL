@@ -1,13 +1,22 @@
 # CNOL
-The China National Linguistics Olympiad (CNOL) is the contest through which Team China of the International Linguistics Olympiad (IOL) is chosen, and has been held annually since 2012. 
+The China National Linguistics Olympiad (CNOL) is the contest through which Team China of the International Linguistics Olympiad (IOL) and the Asia-Pacific Linguistics Olympiad (APLO) is chosen, and has been held annually since 2012. 
 Each year, high school linguists living or studying in China compete to solve linguistic problems covering descriptive, mathematical, and theoretical linguistics. 
 No prior knowledge of linguistics or second languages is required to participate in this contest.
 
-This repository posts the source code and output pdfs for the problem and solution sets, in Chinese and in English, of the CNOL since 2020.
-For other information about the CNOL (e.g., FAQs, announcements, registration, etc.), visit [the CNOL website](http://www.ioling.org.cn), [the International Teenager Competition and Communication Center (ITCCC) website](http://www.it3c.org), or the ITCCC WeChat Official Account.
+This repository posts the source code and output pdfs of the problem and solution sets, in Chinese and in English, for CNOL since 2020.
+For other information about CNOL (e.g., FAQs, announcements, registration, etc.), visit [the CNOL website](http://www.ioling.org.cn), [the International Teenager Competition and Communication Center (ITCCC) website](http://www.it3c.org), or the ITCCC WeChat Official Account.
+## Problem Committee
+The preparation of the problem set for CNOL, just like IOL, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
+This is the duty of the CNOL Problem Committee (PC).
+The CNOL PC is a body composed of people studying at different countries and institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past IOL contests.
+### Current PC Members
+|Name|Affiliation|
+|---|---|
+|Yuyang Liu|University of Massachusetts, Amherst, US|
+### Past PC Members
 ## License
 Files within the "code" folder are contributed by Yuyang Liu and Jin Xu.
-These files referenced and made huge changes from Ivan Derzhanski's code for the IOL and Minsheng Liu's code for Chinese translation of the IOL, and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+These files referenced and made huge changes from Ivan Derzhanski's code for IOL and Minsheng Liu's code of Chinese translation for IOL, and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 
 Files within the "pdfs" folder are contributed by CNOL problem authors.
 The author of each problem is credited at the end of that problem.
