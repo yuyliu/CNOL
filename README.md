@@ -10,7 +10,7 @@ The preparation of the problem set for CNOL, just like IOL, is a complex and tim
 This is the duty of the CNOL Problem Committee (PC).
 The CNOL PC is a body composed of people studying at different countries and institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs and IOLs.
 ### Current Members
-|Name|Current Affiliation|Years|
+|Name|Affiliation|Years|
 |---|---|---|
 |Huihan Li|Princeton Univeristy|2017--|
 |Ye Liu|Cornell University|2020--|
