@@ -12,8 +12,22 @@ The CNOL PC is a body composed of people studying at different countries and ins
 ### Current PC Members
 |Name|Affiliation|
 |---|---|
-|Yuyang Liu|University of Massachusetts, Amherst, US|
+|Huihan Li|Princeton Univeristy|
+|Ye Liu|Cornell University|
+|Yuyang Liu|University of Massachusetts, Amherst|
+|Yiming Luo|Jacobs University, Bremen|
+|Yupei Sun|Bryn Mawr College|
+|Ziji Wang|Swarthmore College|
+|Jin Xu|Delft University of Technology|
+|Lin Ye|New York University, Abu Dhabi|
+|Shuyue Yu|California Institute of Technology|
+|Linghui Zheng|Peking University|
 ### Past PC Members
+|Name|Years|
+|---|---|
+|Qitong Cao|2016--2017|
+|Alexander Wade|2015|
+|Xinlu Xu|2012--2015|
 ## License
 Files within the "code" folder are contributed by Yuyang Liu and Jin Xu.
 These files referenced and made huge changes from Ivan Derzhanski's code for IOL and Minsheng Liu's code of Chinese translation for IOL, and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
