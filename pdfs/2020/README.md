@@ -1,5 +1,6 @@
 # 2020
-## 4/25 Open Round
+## Open Round
+The Open Round of the Ninth China National Linguistics Olympiad (CNOL) was held on April 25, 2020.
 |Problem|Author|Solver's Choice|
 |---|---|---|
 |Etruscan|Yuyang Liu||
@@ -7,8 +8,8 @@
 |Ikoma|Ziche Chen|Hardest|
 |Karbi|Jin Xu||
 |Yiddish|Yuyang Liu, Lin Ye|Favorite|
-## 7/31--8/3 Invitational Round
-Kang Chiao International School, Suzhou, Zhejiang, China.
+## Invitational Round
+The Invitational Round of the Ninth China National Linguistics Olympiad was held at Kang Chiao International School, Suzhou, Zhejiang, China from July 31 to August 3, 2020.
 ### Individual Contest
 |Problem|Author|Solver's Choice|
 |---|---|---|
