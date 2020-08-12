@@ -10,4 +10,7 @@ The versions 0.2.2 and before were distributed under the terms of Latex Project 
 >
 > There is project page for the fonts at [SourceForge.net](http://sourceforge.net/projects/cm-unicode/).
 ## Google [Noto](http://www.google.cn/get/noto) Fonts
-> Noto is a trademark of Google Inc. Noto fonts are open source. All Noto fonts are published under the [SIL Open Font License, Version 1.1](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL). Language data and some sample texts are from the Unicode CLDR project.
+> Noto is a trademark of Google Inc.
+Noto fonts are open source.
+All Noto fonts are published under the [SIL Open Font License, Version 1.1](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
+Language data and some sample texts are from the Unicode CLDR project.
