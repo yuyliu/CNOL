@@ -5,7 +5,7 @@ The China National Linguistics Olympiad (CNOL) is the contest through which Team
 Each year, high school linguists living or studying in China compete to solve linguistic problems covering descriptive, mathematical, and theoretical linguistics at CNOL. 
 No prior knowledge of linguistics or second languages is required to participate in this contest.
 
-This repository posts the problem and solution sets in Chinese and in English (in the "pdf" folder), as well as a template of their source code (in the "tex" folder), for CNOL (since 2020).
+This repository posts the problem and solution sets in Chinese and in English (within the "pdf" folder), as well as a template of their source code (within the "tex" folder), for CNOL (since 2020).
 For other information about CNOL (e.g., FAQs, announcements, registration, etc.), visit [the CNOL website](http://www.ioling.org.cn), [the International Teenager Competition and Communication Center (ITCCC) website](http://www.it3c.org), or the ITCCC WeChat Official Account.
 ## Problem Committee
 The preparation of the problem set for CNOL, just like IOL and APLO, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
@@ -32,7 +32,7 @@ The CNOL PC is a body composed of people studying in different countries and at 
 |Xinlu Xu|2012--2015|
 ## License
 Files within the "otf" folder have their own licenses.
-To view their licenses, check /otf/README.md.
+To view these licenses, check /otf/README.md.
 
 Files within the "pdf" folder are contributed by CNOL problem authors.
 The author of each problem is credited at the end of that problem.
