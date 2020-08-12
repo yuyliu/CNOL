@@ -1,21 +1,22 @@
 # 2020
-## Open Round
-|Problem|Author|
-|---|---|
-|Etruscan|Yuyang Liu|
-|Greek, Ancient|Zixiong Liu|
-|Ikoma|Ziche Chen|
-|Karbi|Jin Xu|
-|Yiddish|Yuyang Liu, Lin Ye|
-## Invitational Round
+## 4/25 Open Round
+|Problem|Author|Solver's Choice|
+|---|---|---|
+|Etruscan|Yuyang Liu||
+|Greek, Ancient|Zixiong Liu|Easiest|
+|Ikoma|Ziche Chen|Hardest|
+|Karbi|Jin Xu||
+|Yiddish|Yuyang Liu, Lin Ye|Favorite|
+## 7/31--8/3 Invitational Round
+Kang Chiao International School, Suzhou, Zhejiang, China.
 ### Individual Contest
-|Problem|Author|
-|---|---|
-|Bunun|Jin Xu|
-|Evenki|Jin Xu|
-|Jingpho|Jin Xu|
-|Navajo|Ziji Wang|
-|Tangut|Yiming Luo|
+|Problem|Author|Solver's Choice|
+|---|---|---|
+|Bunun|Jin Xu||
+|Evenki|Jin Xu|Easiest|
+|Jingpho|Jin Xu|Hardest|
+|Navajo|Ziji Wang||
+|Tangut|Yiming Luo|Favorite|
 ### Team Contest
 |Problem|Author|
 |---|---|
