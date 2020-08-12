@@ -1,0 +1,41 @@
+% Venue
+\def \Xth {Ninth}
+\def \Men {August}
+\def \Die {1}
+\def \Ann {2020}
+% Words and word combinations
+\def \Zaa {vegetable knife}
+\def \Zab {vegetable garden}
+\def \Zac {to watch out}
+\def \Zad {dryer}
+\def \Zae {train}
+\def \Zaf {traffic light}
+\def \Zag {saw (n.)}
+\def \Zah {green light}
+\def \Zai {eel}
+\def \Zaj {to produce smoke}
+\def \Zak {to be dry}
+\def \Zal {aqueduct}
+\def \Zam {tunnel}
+\def \Zan {railway}
+\def \Zao {water tank}
+\def \Zap {smoke (n.)}
+\def \Zaq {fish pond}
+\def \Zar {green bamboo viper}
+\def \Zas {drill (n.)}
+\def \Zat {road}
+\def \Zau {vegetable, green}
+\def \Zav {hole}
+\def \Zaw {to glow}
+\def \Zax {water snake}
+\def \Zba {syllable break}
+% Sentences
+\def \Zbaa {Green bamboo viper is a species of venomous pit viper. It is bright to dark green above and pale green to whitish below.}
+\def \Zbab {A drill is a tool used for making holes.}
+% Languages and scripts
+\def \BNN {Bunun}
+% Families
+\def \Fma {Austronesian}
+% People
+\def \Edts {\HhLi\Ec\Sp\YeLq\Ec\Sp\YyLq\Sp\Pa{\Eic}\Ec\Sp\YmLo\Ec\Sp\YpSp\Ec\Sp\ZjWh\Ec\Sp\JnXu\Ec\Sp\LnYe\Ec\Sp\SyYu\Ec\Sp\LhVg\Pr}
+\def \Trls {\JnXu\Pr}
