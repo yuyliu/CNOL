@@ -1,5 +1,5 @@
 # 2020
-The Open Round of the Ninth CNOL was held on April 25, 2020 and the Invitational Round was held at Kang Chiao International School, Suzhou, Zhejiang, China from July 31 to August 3, 2020.
+The Open Round of the Ninth CNOL was held on April 25, 2020 and the Invitational Round was held at Kang Chiao International School, Suzhou, Jiangsu, China from July 31 to August 3, 2020.
 ## Open Round
 |Problem|Author|Solvers' Choice|
 |---|---|---|
