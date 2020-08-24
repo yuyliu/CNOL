@@ -31,7 +31,7 @@ The CNOL PC is a body composed of people studying in different countries and at 
 |Qitong Cao|2016--2017|
 |Ziche Chen|2019--2019|
 |Xinlu Xu|2012--2015|
-## License
+## Licenses
 Files within the "pdf" folder are contributed by CNOL problem authors.
 The author of each problem is credited at the end of that problem.
 These files are licensed under the Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License (CC BY-NC-ND 2.0).
