@@ -14,8 +14,6 @@ The versions 0.2.2 and before were distributed under the terms of Latex Project 
 > The latest version is 0.6.3a.
 >
 > The latest development version is 0.7.0.
->
-> There is project page for the fonts at [SourceForge.net](http://sourceforge.net/projects/cm-unicode/).
 ### [Google Noto Fonts](http://www.google.cn/get/noto)
 > Noto is a trademark of Google Inc.
 Noto fonts are open source.
