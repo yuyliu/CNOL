@@ -1,7 +1,7 @@
 # Fonts
 *Adobe Fangsong*, *Adobe Kaiti*, *Computer Modern Unicode Sans Serif*, *Computer Modern Unicode Serif*, *Noto Sans CJK SC*, and *Noto Serif CJK SC* are the default fonts for typesetting the problem and solution sets for CNOL.
 These fonts should be downloaded/purchased and put into this folder.
-## License
+## Licenses
 ### [Adobe Fonts](https://fonts.adobe.com)
 > Adobe Fonts offers thousands of fonts from over 150 type foundries as part of your Creative Cloud subscription.
 >
