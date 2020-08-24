@@ -34,9 +34,9 @@ The CNOL PC is a body composed of people studying in different countries and at 
 ## License
 Files within the "pdf" folder are contributed by CNOL problem authors.
 The author of each problem is credited at the end of that problem.
-These files are licensed under the Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License.
+These files are licensed under the Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License (CC BY-NC-ND 2.0).
 To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/, or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 Files within the "tex" folder are contributed by Yuyang Liu and Jin Xu.
-These files referenced and made huge changes from Ivan Derzhanski's code for IOL and Minsheng Liu's code of Chinese translation for IOL, and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-To view a copy of this license, check [LICENSE.txt](https://github.com/yuyliu/cnol/blob/master/LICENSE.txt) in the root directory, visit https://creativecommons.org/licenses/by-nc-sa/4.0/, or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+These files referenced and made huge changes from Ivan Derzhanski's code for IOL and Minsheng Liu's code of Chinese translation for IOL, and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+To view a copy of this license, check [LICENSE.txt](https://github.com/yuyliu/cnol/blob/master/LICENSE.txt) in the root directory.
