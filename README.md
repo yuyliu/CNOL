@@ -8,7 +8,7 @@ No prior knowledge of linguistics or second languages is required to participate
 This repository posts the problem and solution sets in Chinese and in English (within the "pdf" folder), as well as a template of their source code (within the "tex" folder), for CNOL (since 2020).
 For other information about CNOL (e.g., FAQs, announcements, registration, etc.), visit [the CNOL website](http://www.ioling.org.cn) or [the International Teenager Competition and Communication Center (ITCCC) website](http://www.it3c.org).
 ## Problem Committee
-The preparation of the problem set for CNOL, just like IOL and APLO, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
+The preparation of the problem set for CNOL, just like for IOL, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
 This is the duty of the CNOL Problem Committee (PC).
 The CNOL PC is a body composed of people studying in different countries and at different institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs or IOLs.
 ### Current Members
