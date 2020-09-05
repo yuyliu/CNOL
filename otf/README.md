@@ -1,6 +1,10 @@
 # Fonts
-*Adobe Fangsong*, *Adobe Kaiti*, *Computer Modern Unicode Sans Serif*, *Computer Modern Unicode Serif*, *Noto Sans CJK SC*, and *Noto Serif CJK SC* are the default fonts for typesetting the problem and solution sets for CNOL.
-These fonts should be downloaded/purchased and put into this folder.
+*Adobe Fangsong*, *Adobe Kaiti*, *Computer Modern Unicode Sans Serif*, *Computer Modern Unicode Serif*, *Noto Sans CJK SC*, and *Noto Serif CJK SC* are used for typesetting the problem and solution sets for CNOL. 
+
+*Adobe Fangsong* and *Adobe Kaiti* are neither provided within this folder nor supported by Overleaf, and should be downloaded and moved into this directory after being purchased.
+
+*Computer Modern Unicode Sans Serif* and *Computer Modern Unicode Serif* are provided within this folder. *Noto Sans CJK SC* and *Noto Serif CJK SC* are not provided within this folder but are supported by Overleaf for free. 
+
 ## Licenses
 ### [Adobe Fonts](https://fonts.adobe.com)
 > Adobe Fonts offers thousands of fonts from over 150 type foundries as part of your Creative Cloud subscription.
