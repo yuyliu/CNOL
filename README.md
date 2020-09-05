@@ -5,7 +5,7 @@ The China National Linguistics Olympiad (CNOL) is the contest through which Team
 Each year, high school linguists living or studying in China compete to solve linguistic problems covering descriptive, mathematical, and theoretical linguistics at CNOL. 
 No prior knowledge of linguistics or second languages is required to participate in this contest.
 
-This repository posts the problem and solution sets in Chinese and in English (within the "pdf" folder), as well as a template of their source code (within the "tex" folder), for CNOL (since 2020).
+This repository posts the problem and solution sets in Chinese and in English (within the "PDFs" folder), as well as a template of their source code (within the "TEXs" folder), for CNOL (since 2020).
 For other information about CNOL (e.g., FAQs, announcements, registration, etc.), visit [the CNOL website](http://www.ioling.org.cn) or [the International Teenager Competition and Communication Center (ITCCC) website](http://www.it3c.org).
 ## Problem Committee
 The preparation of the problem set for CNOL, just like for IOL, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
@@ -33,11 +33,11 @@ The CNOL PC is a body composed of people studying in different countries and at 
 |Alexander Wade|2015--2015|
 |Xinlu Xu|2012--2015|
 ## Licenses
-Files within the "pdf" folder are contributed by CNOL problem authors.
+Files within the "PDFs" folder are contributed by CNOL problem authors.
 The author of each problem is credited at the end of that problem.
 These files are licensed under the Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License (CC BY-NC-ND 2.0).
 To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/, or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
-Files within the "tex" folder are contributed by Yuyang Liu and Jin Xu.
+Files within the "TEXs" folder are contributed by Yuyang Liu and Jin Xu.
 These files referenced and made huge changes from Ivan Derzhanski's code for IOL and Minsheng Liu's code of Chinese translation for IOL, and are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
 To view a copy of this license, check [LICENSE.txt](https://github.com/yuyliu/cnol/blob/master/LICENSE.txt) in the root directory.
