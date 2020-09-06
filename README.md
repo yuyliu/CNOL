@@ -29,8 +29,6 @@ The CNOL PC is a body composed of people studying in different countries and at 
 |---|---|
 |Ruiheng Bai|2018--2020|
 |Qitong Cao|2016--2017|
-|Ziche Chen|2019--2019|
-|Alexander Wade|2015--2015|
 |Xinlu Xu|2012--2015|
 ## Licenses
 Files within the "PDFs" folder are contributed by CNOL problem authors.
