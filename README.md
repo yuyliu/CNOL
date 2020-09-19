@@ -17,7 +17,7 @@ The CNOL PC is a body composed of people studying in different countries and at 
 |Huihan Li|Princeton Univeristy|2017--|
 |Ye Liu|Cornell University|2020--|
 |Yuyang Liu (Chair)|University of Massachusetts, Amherst|2018--|
-|Yiming Luo|Jacobs University, Bremen|2019--|
+|Yiming Luo|Dresden University of Technology|2019--|
 |Yupei Sun|Bryn Mawr College|2018--|
 |Ziji Wang|Swarthmore College|2020--|
 |Jin Xu|Delft University of Technology|2017--|
