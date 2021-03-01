@@ -3,11 +3,11 @@ The Open Round of the Ninth CNOL was held on April 25, 2020 and the Invitational
 ## Open Round
 |Problem|Author|Solvers' Choice|
 |---|---|---|
-|Etruscan, the Old Italic script|Yuyang Liu||
+|Etruscan and the Old Italic script|Yuyang Liu||
 |Ancient Greek|Zixiong Liu|Easiest|
 |Ikoma|Ziche Chen|Hardest|
 |Karbi|Jin Xu||
-|Yiddish, the Hebrew script|Yuyang Liu, Lin Ye|Favorite|
+|Yiddish and the Hebrew script|Yuyang Liu, Lin Ye|Favorite|
 ## Invitational Round
 The jury awarded 268 medals (44 gold, 79 silver, and 145 bronze) out of 403 participants, as well as 42 honorable mentions, 67 team contest trophies, 1 team cup for highest average score, and 6 best solution prizes.
 ### Individual Contest
@@ -17,8 +17,8 @@ The jury awarded 268 medals (44 gold, 79 silver, and 145 bronze) out of 403 part
 |Evenki|Jin Xu|Easiest|
 |Jingpho|Jin Xu|Hardest|
 |Navajo|Ziji Wang||
-|Tangut, the Tangut script|Yiming Luo|Favorite|
+|Tangut and the Tangut script|Yiming Luo|Favorite|
 ### Team Contest
 |Problem|Author|
 |---|---|
-|Zaiwa, the Fraser script|Jin Xu, Yuyang Liu|
+|Zaiwa and the Fraser script|Jin Xu, Yuyang Liu|
