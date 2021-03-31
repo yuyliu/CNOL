@@ -1,7 +1,5 @@
 % Packages and settings
 \usepackage{xeCJK}
-  \renewcommand\noindent{\hspace{-\parindent}}
-  \vfuzz=1em
 \usepackage{zhnumber}
 \setCJKmainfont[
   Path=OTFs/Hani/,
@@ -11,14 +9,16 @@
   SlantedFont=AdobeFangsongStd-Regular
 ]{NotoSerifCJKsc-Regular}
 \setCJKsansfont{Noto Sans CJK SC}
-  \makeatletter
-  \renewcommand\paragraph{%
-    \@startsection{paragraph}{4}{\z@}%
-                  {3.25ex \@plus1ex \@minus.2ex}%
-                  {0pt}%
-                  {\normalfont\normalsize\bfseries}}
-  \makeatother
-  \textwidth=40em
+\makeatletter
+\renewcommand\paragraph{%
+  \@startsection{paragraph}{4}{\z@}%
+                {3.25ex \@plus1ex \@minus.2ex}%
+                {0pt}%
+                {\normalfont\normalsize\bfseries}}
+\makeatother
+\renewcommand\noindent{\hspace{-\parindent}}
+\vfuzz=1em
+\textwidth=40em
 % Punctuation marks
 \def \Pa #1{（#1）}
 \def \Cl {：}
@@ -64,18 +64,20 @@
 \def \Sts {句子}
 \def \Inl #1#2{#2#1}
 \def \Ptl #1{部分#1}
-\def \Wri #1#2{#2书写的#1}
-\def \Wrw #1#2{#2写出的#1}
+\def \Wri #1#2{#2写成的#1}
 \def \Wro #1#2{#2写出的#1}
+\def \Wrw #1#2{#2写出的#1}
 \def \Ins #1{用#1}
-%\def \Hpy {汉语拼音}
+\def \Wit #1{用#1} 
 \def \And #1#2{#1和#2}
 \def \Bnd #1#2{#1并#2}
 \def \Cnd #1#2{#1且#2}
 \def \Que #1#2{#1及#2}
-\def \Atq #1{和#1}
+\def \Atq #1{、#1}
 \def \Iao #1{乱序排列的#1}
 \def \Sua #1{其#1}
+\def \Mnt #1{最自然的#1}
+\def \Psb #1{可能的#1}
 \def \Ipa {国际音标转写}
 \def \Trs #1{#1翻译}
 \def \Nog #1{不大于$\mbox{#1}$}
@@ -115,6 +117,12 @@
 \def \Filb {填写空缺：}
 \def \Trla #1#2{将#1翻译成#2。}
 \def \Trlb #1{翻译成#1：}
+\def \Tnwa #1#2{用最自然的方式将#1翻译成#2。}
+\def \Tnwb #1{用最自然的方式翻译成#1：}
+\def \Tpwa #1#2{用所有可能的方式将#1翻译成#2。}
+\def \Tpwb #1{用所有可能的方式翻译成#1：}
+\def \Wria #1#2{将#1写成#2。}
+\def \Wrib #1{写成#1：}
 \def \Wrna #1{用阿拉伯数字写出#1。}
 \def \Wrnb {用阿拉伯数字写出：}
 \def \Wrwa #1#2{用#2写出#1。}
@@ -148,7 +156,29 @@
 \def \ZHO {汉语}
 \def \LATN {拉丁字母}
 % Countries
+\def \AU {澳大利亚}
+\def \BD {孟加拉国}
+\def \BO {玻利维亚}
+\def \BR {巴西}
+\def \CM {喀麦隆}
 \def \CN {中国}
+\def \DE {德国}
+\def \FJ {斐济}
+\def \ID {印度尼西亚}
+\def \IL {以色列}
+\def \IN {印度}
+\def \KH {柬埔寨}
+\def \MM {缅甸}
+\def \MN {蒙古}
+\def \MX {墨西哥}
+\def \NG {尼日利亚}
+\def \PE {秘鲁}
+\def \PG {巴布亚新几内亚}
+\def \PH {菲律宾}
+\def \RU {俄罗斯}
+\def \TZ {坦桑尼亚}
+\def \US {美国}
+\def \VN {越南}
 % People
 \def \HhLi {\mbox{李惠涵}}
 \def \YeLq {\mbox{刘冶}}
