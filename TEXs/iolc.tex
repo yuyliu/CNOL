@@ -75,7 +75,7 @@
   \end{tabular}}
 \newcommand \Ante {%
   \ifprob\probfalse\else%
-    \ifx\Sp\empty
+    \ifx\Sp\empty%
       \setlength{\labelsep}{0pt}%
       \setlength{\leftmargini}{2em}%
       \setlength{\leftmarginii}{2em}%
@@ -127,8 +127,8 @@
   \end{enumerate}}
 \newenvironment{detail}{%
   \begin{enumerate}[
-    parsep=0pt,%2pt plus 1pt minus 1pt,
-    itemsep=0pt,%2pt plus 1pt minus 1pt,
+    parsep=0pt,
+    itemsep=0pt,
     label=\arabic*\Pt]%
   \setcounter{enumii}{\value{index}}}{%
   \ifnum0=\the\value{enumii}%
@@ -138,8 +138,8 @@
   \end{enumerate}}
 \newenvironment{select}{%
   \begin{enumerate}[
-    parsep=0pt,%2pt plus 1pt minus 1pt,
-    itemsep=0pt,%2pt plus 1pt minus 1pt,
+    parsep=0pt,
+    itemsep=0pt,
     label=\AlphAlphAlph*\Pt]%
   \setcounter{enumii}{\value{jndex}}}{%
   \ifnum0=\the\value{enumii}%
