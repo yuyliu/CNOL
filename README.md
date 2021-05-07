@@ -9,8 +9,8 @@ This repository posts the problem and solution sets in Chinese and in English (w
 For further information about CNOL (e.g., FAQs, announcements, registration, etc.), visit [the CNOL website](http://www.ioling.org.cn) or [the International Teenager Competition and Communication Center (ITCCC) website](http://www.it3c.org).
 ## Problem Committee
 The preparation of the problem set for CNOL, just like for IOL, is a complex and time-consuming task, involving composition, testing and review of problems in Chinese and in English.
-This is the duty of the CNOL Problem Committee (PC).
-The CNOL PC is a body composed of people studying in different countries and at different institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs or IOLs.
+That is the duty of the CNOL Problem Committee (PC).
+The CNOL PC is a body composed of people studying in different countries and at different institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs, APLOs, or IOLs.
 ### Current Members
 |Name|Years|Affiliation|Location|
 |---|---|---|---|
