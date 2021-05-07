@@ -14,16 +14,16 @@ The CNOL PC is a body composed of people studying in different countries and at 
 ### Current Members
 |Name|Years|Affiliation|Location|
 |---|---|---|---|
-|Huihan Li|2017--|Princeton Univeristy|Princeton, NJ, USA|
-|Ye Liu|2020--|Cornell University|Ithaca, NY, USA|
-|Yuyang Liu (Chair)|2018--|Yale University|New Haven, CT, USA|
-|Yiming Luo|2019--|Dresden University of Technology|Dresden, SN, DEU|
-|Yupei Sun|2018--|Bryn Mawr College|Bryn Mawr, PA, USA|
-|Ziji Wang|2020--|Swarthmore College|Swarthmore, PA, USA|
-|Jin Xu|2017--|Delft University of Technology||
-|Lin Ye|2019--|New York University, Abu Dhabi||
-|Shuyue Yu|2020--|California Institute of Technology||
-|Linghui Zheng|2020--|Peking University||
+|Huihan Li|2017--|Princeton Univeristy|Princeton, NJ, US|
+|Ye Liu|2020--|Cornell University|Ithaca, NY, US|
+|Yuyang Liu (Chair)|2018--|Yale University|New Haven, CT, US|
+|Yiming Luo|2019--|Dresden University of Technology|Dresden, SN, DE|
+|Yupei Sun|2018--|Bryn Mawr College|Bryn Mawr, PA, US|
+|Ziji Wang|2020--|Swarthmore College|Swarthmore, PA, US|
+|Jin Xu|2017--|Delft University of Technology|Delft, ZH, NL|
+|Lin Ye|2019--|New York University, Abu Dhabi|Abu Dhabi, AE|
+|Shuyue Yu|2020--|California Institute of Technology|Pasadena, CA, US|
+|Linghui Zheng|2020--|Peking University|Beijing, CN|
 ### Past Members
 |Name|Years|
 |---|---|
