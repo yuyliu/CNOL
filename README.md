@@ -12,18 +12,18 @@ The preparation of the problem set for CNOL, just like for IOL, is a complex and
 This is the duty of the CNOL Problem Committee (PC).
 The CNOL PC is a body composed of people studying in different countries and at different institutions, whose expertise in linguistic problems has been demonstrated by authorship or high scores at past CNOLs or IOLs.
 ### Current Members
-|Name|Affiliation|Years|
-|---|---|---|
-|Huihan Li|Princeton Univeristy|2017--|
-|Ye Liu|Cornell University|2020--|
-|Yuyang Liu (Chair)|University of Massachusetts, Amherst|2018--|
-|Yiming Luo|Dresden University of Technology|2019--|
-|Yupei Sun|Bryn Mawr College|2018--|
-|Ziji Wang|Swarthmore College|2020--|
-|Jin Xu|Delft University of Technology|2017--|
-|Lin Ye|New York University, Abu Dhabi|2019--|
-|Shuyue Yu|California Institute of Technology|2020--|
-|Linghui Zheng|Peking University|2020--|
+|Name|Years|Affiliation|Location|
+|---|---|---|---|
+|Huihan Li|2017--|Princeton Univeristy|Princeton, NJ, USA|
+|Ye Liu|2020--|Cornell University|Ithaca, NY, USA|
+|Yuyang Liu (Chair)|2018--|Yale University|New Haven, CT, USA|
+|Yiming Luo|2019--|Dresden University of Technology|Dresden, SN, DEU|
+|Yupei Sun|2018--|Bryn Mawr College|Bryn Mawr, PA, USA|
+|Ziji Wang|2020--|Swarthmore College|Swarthmore, PA, USA|
+|Jin Xu|2017--|Delft University of Technology||
+|Lin Ye|2019--|New York University, Abu Dhabi||
+|Shuyue Yu|2020--|California Institute of Technology||
+|Linghui Zheng|2020--|Peking University||
 ### Past Members
 |Name|Years|
 |---|---|
