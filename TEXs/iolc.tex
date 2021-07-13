@@ -4,13 +4,18 @@
 \usepackage{alphalph}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{array}
 \usepackage{calc}
+\usepackage{colortbl}
 \usepackage{enumitem}
 \usepackage{fontspec}
+\usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{verbatim}
+\usepackage{xcolor}
+\newfontface\ipafont{Gentium Plus}
 \setmainfont[
-  Path=OTFs/Latn/,
+  Path=OTFs/Latin/,
   Extension=.otf,
   BoldFont=cmunbx,
   ItalicFont=cmunti,
@@ -23,6 +28,7 @@
 \setsansfont{CMU Sans Serif}
 \DeclareRobustCommand{\rbseries}{\fontseries{rb}\selectfont}
 \DeclareTextFontCommand{\textrb}{\rbseries}
+\DeclareTextFontCommand{\textipa}{\ipafont}
 % Page styles
 \makeatletter
 \def \ps@pageone {
@@ -30,24 +36,26 @@
   \def \@oddhead {\hfill{\Huge\bfseries\Iso}}}
 \def \ps@pagetwo {
   \let \@oddfoot \@empty
-  \def \@oddhead {%
-    {\slshape\small{%
-      \begin{tabular}[t]{@{}l@{}}
-      \Rnh\\
-      \Stt\\
-      \end{tabular}}}
+  \def \@oddhead {{%
+    \slshape\small{%
+    \begin{tabular}[t]{@{}l@{}}\Rnh\\\Stt\\\end{tabular}}}
     \hfill\thepage}}
 \newalphalph{\AlphMult}[mult]{\@Alph}{26}
+\newcommand \prepact {\@minipagetrue}
 \def \AlphAlphAlph #1{%
   \expandafter\@AlphAlphAlph\csname c@#1\endcsname}
 \def \@AlphAlphAlph #1{\AlphMult{#1}}
 \makeatother
 \AddEnumerateCounter{\AlphAlphAlph}{\@AlphAlphAlph}{aa}
+\newcommand \subpact {\vspace{-\baselineskip}}
 % Booleans
+\newif\ifpast\pastfalse
+\newif\iffull\fullfalse
 \newif\ifsamp\sampfalse
 \newif\ifopen\openfalse
 \newif\ifteam\teamfalse
 \newif\ifprob\probfalse
+\newif\ifcode\codefalse
 % Counters
 \newcounter{index}[section]
 \newcounter{jndex}[section]
@@ -56,39 +64,38 @@
 \newcommand \D [1]{{\rbseries#1}}
 \newcommand \E [1]{{\itshape#1}}
 \newcommand \F [1]{{\bfseries\itshape#1}}
+\newcommand \G [1]{\raisebox{-2pt}{#1}}
+\newcommand \I [1]{\textipa{[#1]}}
+\newcommand \J [1]{\textipa{[#1]}}
 \newcommand \M [1]{\def \Wid {\widthof{#1}}}
 \newcommand \R [1]{\makebox[\Wid]{\hfill#1}}
-\def \W {\widthof{\Large$\bigtriangleup$}}
-\newcommand \Na {\noindent\ifx\Sp\empty\rlap{\raise.2ex\hbox{\parbox{\widthof{\Large$\bigtriangleup$}}{\hfil(!)\hfil}}}\qquad\else{\raise.2ex\hbox{\makebox[\widthof{\Large$\bigtriangleup$}]{\hfil(!)\hfil}}}\quad\fi}
-\newcommand \Nb {\noindent\ifx\Sp\empty\rlap{\ooalign{\hfil\raise.2ex\hbox{\bfseries!}\hfil\crcr\Large$\bigtriangleup$}}\qquad\else{\ooalign{\hfil\raise.2ex\hbox{\bfseries!}\hfil\crcr\Large$\bigtriangleup$}}\quad\fi}
-\newcommand \By [1]{\unskip\nobreak\hfil\penalty100\hbox{}\nobreak\hfill{\hbox{\qquad{\itshape\Md#1}}}\par}
-\newcommand \Rnd {\ifopen\Opr\else\Itr\fi}
-\newcommand \Con {\ifteam\Tmc\else\Ivc\fi}
-\newcommand \Cht {\ifprob\ifteam\Pro\else\Prs\fi\else\ifteam\Sol\else\Sls\fi\fi}
+\newcommand \Na {\noindent{%
+  \raise.2ex\hbox{\makebox[\widthof{\Large$\bigtriangleup$}]%
+  {\hfil(!)\hfil}}}\quad}
+\newcommand \Nb {\noindent{%
+  \ooalign{\hfil\raise.2ex\hbox{\bfseries!}%
+  \hfil\crcr\Large$\bigtriangleup$}}\quad}
+\newcommand \By [1]{%
+  \unskip\nobreak\hfil\penalty100
+  \hbox{}\nobreak\hfill{\hbox{\qquad{\itshape\Md#1}}}\par}
+\newcommand \Rnd {\ifopen\Opr\else\Ivr\fi}
+\newcommand \Con {\ifteam\Tmc\else\Idc\fi}
+\newcommand \Cht {%
+  \ifprob\ifteam\Pbl\else\Pbs\fi\else\ifteam\Sol\else\Sls\fi\fi}
 \newcommand \Ara {\stepcounter{index}\arabic{index}\Pt}
-\newcommand \Gap {\stepcounter{index}\underline{\hbox to 1in{\hfil\arabic{index}\hfil}}}
+\newcommand \Gap {%
+  \stepcounter{index}%
+  \underline{\hbox to 1in{\hfil\arabic{index}\hfil}}}
 \newcommand \Lat {\stepcounter{jndex}\Alph{jndex}\Pt}
 \newcommand \Item [2]{%
-  \item
-  \begin{tabular}{@{}p{\Wid}l@{}}
-  #1&#2\\
-  \end{tabular}}
+  \item \begin{tabular}{@{}p{\Wid}l@{}}#1&#2\\\end{tabular}}
 \newcommand \Ante {%
-  \ifprob\probfalse\else%
-    \ifx\Sp\empty%
-      \setlength{\labelsep}{0pt}%
-      \setlength{\leftmargini}{2em}%
-      \setlength{\leftmarginii}{2em}%
-      \setlength{\leftmarginiii}{2em}%
-      \setlength{\leftmarginiv}{2em}%
-      \setlength{\leftmarginv}{2em}%
-      \setlength{\leftmarginvi}{2em}%
-      \setlength{\parindent}{2em}\fi%
-    \probtrue\fi%
+  \ifprob\probfalse\else\probtrue\fi%
   \def \Mtt {\ifsamp\Tsp{\Rnd}\else\Tct{\Rnd}{\Xth}\fi}%
   \def \Stt {\ifopen\Cht\else\Doc{\Con}{\Cht}\fi}%
-  \def \Rnh {\ifsamp\Hsp{\Rnd}\else%
-    \Hct{\Rnd}{\Xth}\Sp\Pa{\Ann}\fi}
+  \def \Rnh {%
+    \ifsamp\Hsp{\Rnd}%
+    \else\Hct{\Rnd}{\Xth}\Sp\Pa{\Ann}\fi}%
   \thispagestyle{pageone}%
   \pagestyle{pagetwo}%
   \begin{center}%
@@ -123,27 +130,44 @@
 % Environments
 \newenvironment{assign}{%
   \renewcommand \labelenumi {\bfseries\Pa{\alph{enumi}}}%
-  \begin{enumerate}}{%
-  \end{enumerate}}
+  \begin{enumerate}}{\end{enumerate}}
 \newenvironment{detail}{%
-  \begin{enumerate}[
-    parsep=0pt,
-    itemsep=0pt,
-    label=\arabic*\Pt]%
+  \begin{enumerate}[label=\arabic*\Pt, noitemsep]%
   \setcounter{enumii}{\value{index}}}{%
-  \ifnum0=\the\value{enumii}%
-    \setcounter{index}{\value{enumi}}%
-  \else
-    \setcounter{index}{\value{enumii}}\fi%
+  \ifnum0=\the\value{enumii}\setcounter{index}{\value{enumi}}%
+  \else\setcounter{index}{\value{enumii}}\fi%
+  \end{enumerate}}
+\newenvironment{expend}{
+  \begin{enumerate}[label=\Pa{\roman*}, noitemsep]}{
   \end{enumerate}}
 \newenvironment{select}{%
-  \begin{enumerate}[
-    parsep=0pt,
-    itemsep=0pt,
-    label=\AlphAlphAlph*\Pt]%
+  \begin{enumerate}[label=\AlphAlphAlph*\Pt, noitemsep]%
   \setcounter{enumii}{\value{jndex}}}{%
-  \ifnum0=\the\value{enumii}%
-    \setcounter{jndex}{\value{enumi}}%
-  \else%
-    \setcounter{jndex}{\value{enumii}}\fi%
+  \ifnum0=\the\value{enumii}\setcounter{jndex}{\value{enumi}}%
+  \else\setcounter{jndex}{\value{enumii}}\fi%
+  \end{enumerate}}
+\newenvironment{compactassi}{%
+  \begin{enumerate}[
+    before=\prepact, after=\subpact, 
+    label={\bfseries\Pa{\alph*}}]}{
+  \end{enumerate}}
+\newenvironment{compactdeta}{%
+  \begin{enumerate}[
+    before=\prepact, after=\subpact, 
+    label=\arabic*\Pt, nosep]%
+  \setcounter{enumii}{\value{index}}}{%
+  \ifnum0=\the\value{enumii}\setcounter{index}{\value{enumi}}%
+  \else\setcounter{index}{\value{enumii}}\fi%
+  \end{enumerate}}
+\newenvironment{compactsele}{%
+  \begin{enumerate}[
+    before=\prepact, after=\subpact, 
+    label=\AlphAlphAlph*\Pt, nosep]%
+  \setcounter{enumii}{\value{jndex}}}{%
+  \ifnum0=\the\value{enumii}\setcounter{jndex}{\value{enumi}}%
+  \else\setcounter{jndex}{\value{enumii}}\fi%
+  \end{enumerate}}
+\newenvironment{subpactassi}{%
+  \begin{enumerate}[
+    after=\subpact, label={\bfseries\Pa{\alph*}}]}{
   \end{enumerate}}
