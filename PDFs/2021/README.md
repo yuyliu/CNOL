@@ -3,7 +3,7 @@ The Open Round of the Tenth CNOL was held on April 10, 2021 and the Invitational
 ## Open Round
 |Problem|Author|
 |---|---|
-|the Cistercian numerals|Ye Liu|
+|Cistercian numerals|Ye Liu|
 |Fijian|Ziji Wang|
 |Pampanga and the Kulitan script|Yiming Luo|
 |Tangale|Ye Liu|
