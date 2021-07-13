@@ -1,8 +1,9 @@
 % Packages and settings
 \usepackage{xeCJK}
 \usepackage{zhnumber}
+\fulltrue
 \setCJKmainfont[
-  Path=OTFs/Hani/,
+  Path=OTFs/Han/,
   Extension=.otf,
   BoldFont=NotoSerifCJKsc-Bold,
   ItalicFont=AdobeKaitiStd-Regular,
@@ -10,13 +11,26 @@
 ]{NotoSerifCJKsc-Regular}
 \setCJKsansfont{Noto Sans CJK SC}
 \makeatletter
-\renewcommand\paragraph{%
+\renewcommand \paragraph {%
   \@startsection{paragraph}{4}{\z@}%
-                {3.25ex \@plus1ex \@minus.2ex}%
-                {0pt}%
+                {3.25ex \@plus1ex \@minus.2ex}{0pt}%
                 {\normalfont\normalsize\bfseries}}
 \makeatother
-\renewcommand\noindent{\hspace{-\parindent}}
+\renewcommand \noindent {\hspace{-\parindent}}
+\renewcommand \Na {\noindent\rlap{%
+  \raise.2ex\hbox{\parbox{\widthof{\Large$\bigtriangleup$}}
+  {\hfil(!)\hfil}}}\qquad}
+\renewcommand \Nb {\noindent\rlap{%
+  \ooalign{\hfil\raise.2ex\hbox
+  {\bfseries!}\hfil\crcr\Large$\bigtriangleup$}}\qquad}
+\setlength{\labelsep}{0pt}%
+\setlength{\leftmargini}{2em}%
+\setlength{\leftmarginii}{2em}%
+\setlength{\leftmarginiii}{2em}%
+\setlength{\leftmarginiv}{2em}%
+\setlength{\leftmarginv}{2em}%
+\setlength{\leftmarginvi}{2em}%
+\setlength{\parindent}{2em}
 \vfuzz=1em
 \textwidth=40em
 % Punctuation marks
@@ -34,17 +48,21 @@
 \def \Ws { }
 % Words and word combinations
 \def \Iso {zh}
-\def \Tsp #1{国际语言学奥林匹克中国区#1样题}
-\def \Hsp #1{国际语言学奥林匹克中国区#1样题}
-\def \Tct #1#2{第\zhnumber{#2}届国际语言学奥林匹克中国区#1}
-\def \Hct #1#2{第\zhnumber{#2}届国际语言学奥林匹克中国区#1}
+\def \Tsp #1{国际语言学奥林匹克中国区专业组#1样题}
+\def \Hsp #1{国际语言学奥林匹克中国区专业组#1样题}
+\def \Tct #1#2{%
+  \ifpast 第\zhnumber{#2}届IOLC#1%
+  \else 第\zhnumber{#2}届IOLC专业组#1\fi}
+\def \Hct #1#2{%
+  \ifpast 第\zhnumber{#2}届IOLC#1%
+  \else 第\zhnumber{#2}届IOLC专业组#1\fi}
 \def \Mdy #1#2#3{$\mbox{#3}$年$\mbox{#1}$月$\mbox{#2}$日}
 \def \Opr {初选}
-\def \Itr {终选}
-\def \Ivc {个人赛}
-\def \Tmc {团队赛}
-\def \Pro {题目}
-\def \Prs {题目}
+\def \Ivr {终选}
+\def \Idc {个人挑战}
+\def \Tmc {团队挑战}
+\def \Pbl {题目}
+\def \Pbs {题目}
 \def \Sol {解答}
 \def \Sls {解答}
 \def \Ans {答题纸}
@@ -66,9 +84,10 @@
 \def \Ptl #1{部分#1}
 \def \Wri #1#2{#2写成的#1}
 \def \Wro #1#2{#2写出的#1}
-\def \Wrw #1#2{#2写出的#1}
+\def \Wru #1#2{#2写出的#1}
 \def \Ins #1{用#1}
-\def \Wit #1{用#1} 
+\def \Inn {用阿拉伯数字}
+\def \Usg #1{用#1} 
 \def \And #1#2{#1和#2}
 \def \Bnd #1#2{#1并#2}
 \def \Cnd #1#2{#1且#2}
@@ -78,7 +97,7 @@
 \def \Sua #1{其#1}
 \def \Mnt #1{最自然的#1}
 \def \Psb #1{可能的#1}
-\def \Ipa {国际音标转写}
+\def \Txs {音标}
 \def \Trs #1{#1翻译}
 \def \Nog #1{不大于$\mbox{#1}$}
 \def \Lss #1{小于$\mbox{#1}$}
@@ -87,25 +106,57 @@
 \def \Ths #1{这些#1}
 \def \One #1{#1中的一个}
 \def \Etc {等地}
+\def \Nsl {鼻音化}
+\def \Slb {音节间断}
 \def \Eds {编者}
 \def \Txt {汉语文本}
 \def \Eic {主编}
 \def \Ted {技术编辑}
 \def \Nam {姓名}
-\def \Stn {编号}
-\def \Prn {题号}
+\def \Stn {座号}
+\def \Pbn {题号}
 \def \Pgn {页码}
 \def \Dne {不存在}
 \def \Otw {其他情况}
+\def \Bef #1{在#1前}
 \def \Aft #1{在#1后}
+\def \Mod #1#2{#1#2}
+\def \Snd {音}
+\def \Csn {辅音}
+\def \Uvc {清}
+\def \Vce {浊}
+\def \Plo {爆发音}
 \def \Nas {鼻音}
-\def \Nsl {鼻音化}
+\def \Vow {元音}
 \def \Stm {词根}
+\def \Vrb {动词}
+\def \Nun {名词}
+\def \Adj {形容词}
+\def \Itr {不及物}
+\def \Tra {及物}
+\def \Sng {单数}
 \def \Plr {复数}
+\def \Pst {过去时}
+\def \Nps {非过去时}
+\def \Prs {现在时}
+\def \Nfu {非将来时}
+\def \Fut {将来时}
+\def \Dft {默认}
+\def \Prg {进行体}
+\def \Ipf {未完成体}
+\def \Pfv {完成体}
+\def \Nom {主格}
 \def \Acc {宾格}
+\def \Gen {属格}
+\def \Obl {间接格}
 \def \Cmp {比较格}
 \def \Loc {方位格}
-\def \Nom {主格}
+\def \Fsg {我}
+\def \Ssg {你}
+\def \Tsg {他}
+\def \Fpl {我们}
+\def \Spl {你们}
+\def \Tpl {他们}
 % Sentences
 \def \Rule {除非题目明确说明你无需这样做，你应描述你在语料中发现的任何规律或规则。}
 \def \Gbis #1{以下是一个#1：}
@@ -125,49 +176,68 @@
 \def \Wrib #1{写成#1：}
 \def \Wrna #1{用阿拉伯数字写出#1。}
 \def \Wrnb {用阿拉伯数字写出：}
-\def \Wrwa #1#2{用#2写出#1。}
-\def \Wrwb #1{用#1写出：}
 \def \Wroa #1#2{用#2写出#1。}
 \def \Wrob #1{用#1写出：}
+\def \Wrua #1#2{用#2写出#1。}
+\def \Wrub #1{用#1写出：}
 \def \Expa {解释你的答案。}
 \def \Alle #1{在这些等式中出现的所有数都#1。}
 \def \Allp #1{在该题中出现的所有数都#1。}
 \def \Coin #1#2{#1的答案应与#2一致。}
 \def \Noex {除答案外，任何解释皆不必要，亦不予评分。}
 \def \Isli #1{#1是孤立语言。}
-\def \Infm #1#2{#1属于#2语系。}
-\def \Inbr #1#2#3{#1属于#3语系#2语族。}
-\def \Ingr #1#2#3{#1属于#3语系#2语支。}
-\def \Hist #1#2{约$\mbox{#2}$年前，#1使用该语言。}
+\def \Infm #1#2{#1属于#2。}
+\def \Inbr #1#2#3{#1属于#3#2。}
+\def \Ingr #1#2#3#4{#1属于#4#3#2。}
+\def \Hist #1#2{约$\mbox{#2}$年前，#1曾使用该语言。}
+\def \Exti #1#2{在#2，#1族曾使用该语言。}
 \def \Glob #1{在世界各地，约有$\mbox{#1}$人使用该语言。}
 \def \Stat #1#2{在#2，约有$\mbox{#1}$人使用该语言。}
-\def \Ethn #1#2#3{在#3，约有$\mbox{#1}$名#2族人使用该语言。}
+\def \Ethn #1#2#3{在#3，#2族约有$\mbox{#1}$人使用该语言。}
 \def \Isac #1{#1是辅音。}
 \def \Arec #1{#1是辅音。}
 \def \Isav #1{#1是元音。}
 \def \Arev #1{#1是元音。}
 \def \Indi #1#2{标记$\text{#1}$表示#2。}
-\def \Long {标记$\text{\D{ː}}$表示前面的元音是长音。}
+\def \Long #1{标记$\text{#1}$表示前面的元音是长音。}
 \def \Dvdl {元音双写表示长音。}
+\def \Anop #1{#1是人名。}
 \def \Gdlk {祝你好运！}
 % Languages and scripts
 \def \TXT {\ZHO}
 \def \ENG {英语}
 \def \ZHO {汉语}
 \def \LATN {拉丁字母}
+\def \ARABN {阿拉伯数字}
+% Families
+\def \AAV {南亚语系}
+\def \AFA {亚非语系}
+\def \ALV {大西洋－刚果语系}
+\def \INE {印欧语系}
+\def \MAP {南岛语系}
+\def \SIT {汉藏语系}
+\def \TAI {壮侗语系}
+\def \TUW {满－通古斯语系}
+\def \XND {纳－德内语系}
 % Countries
 \def \AU {澳大利亚}
 \def \BD {孟加拉国}
 \def \BO {玻利维亚}
 \def \BR {巴西}
+\def \BT {不丹}
 \def \CM {喀麦隆}
 \def \CN {中国}
 \def \DE {德国}
 \def \FJ {斐济}
+\def \GB {英国}
+\def \GE {格鲁吉亚}
+\def \HU {匈牙利}
 \def \ID {印度尼西亚}
 \def \IL {以色列}
 \def \IN {印度}
+\def \KG {吉尔吉斯斯坦}
 \def \KH {柬埔寨}
+\def \LK {斯里兰卡}
 \def \MM {缅甸}
 \def \MN {蒙古}
 \def \MX {墨西哥}
@@ -175,15 +245,22 @@
 \def \PE {秘鲁}
 \def \PG {巴布亚新几内亚}
 \def \PH {菲律宾}
+\def \RO {罗马尼亚}
 \def \RU {俄罗斯}
+\def \SK {斯洛伐克}
+\def \TH {泰国}
+\def \TJ {塔吉克斯坦}
+\def \TR {土耳其}
 \def \TZ {坦桑尼亚}
 \def \US {美国}
+\def \UZ {乌兹别克斯坦}
 \def \VN {越南}
 % People
 \def \HhLi {\mbox{李惠涵}}
 \def \YeLq {\mbox{刘冶}}
 \def \YyLq {\mbox{刘羽扬}}
 \def \YmLo {\mbox{罗一茗}}
+\def \OkQq {\mbox{仇傲}}
 \def \YpSp {\mbox{孙毓培}}
 \def \ZjWh {\mbox{王子佶}}
 \def \JnXu {\mbox{徐进}}
