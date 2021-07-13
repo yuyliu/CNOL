@@ -14,16 +14,17 @@ The CNOL PC is a body composed of people studying in different countries and at 
 ### Current Members
 |Name|Years|Affiliation|Location|
 |---|---|---|---|
-|Huihan Li|2017--|Princeton Univeristy|Princeton, New Jersey, USA|
-|Ye Liu|2020--|Cornell University|Ithaca, New York, USA|
-|Yuyang Liu (Chair)|2018--|Yale University|New Haven, Connecticut, USA|
-|Yiming Luo|2019--|Dresden University of Technology|Dresden, Saxony, Germany|
-|Yupei Sun|2018--|University of Pennsylvania|Philadelphia, Pennsylvania, USA|
-|Ziji Wang|2020--|Swarthmore College|Swarthmore, Pennsylvania, USA|
-|Jin Xu|2017--|Delft University of Technology|Delft, South Holland, Netherlands|
-|Lin Ye|2019--|New York University, Abu Dhabi|Abu Dhabi, UAE|
-|Shuyue Yu|2020--|California Institute of Technology|Pasadena, California, USA|
-|Linghui Zheng|2020--|Peking University|Beijing, China|
+|Huihan Li|2017--|Princeton Univeristy|Princeton, New Jersey, USA|<!--2016-->
+|Ye Liu|2020--|Cornell University|Ithaca, New York, USA|<!--2019-->
+|Yuyang Liu (Chair)|2018--|Yale University|New Haven, Connecticut, USA|<!--2017-->
+|Yiming Luo|2019--|Dresden University of Technology|Dresden, Saxony, Germany|<!--2017-->
+|Ao Qiu|2021--|Peking University|Beijing, China|<!--2019-->
+|Yupei Sun|2018--|University of Pennsylvania|Philadelphia, Pennsylvania, USA|<!--2017-->
+|Ziji Wang|2020--|Swarthmore College|Swarthmore, Pennsylvania, USA|<!--2019-->
+|Jin Xu|2017--|Delft University of Technology|Delft, South Holland, Netherlands|<!--2016-->
+|Lin Ye|2019--|New York University, Abu Dhabi|Abu Dhabi, UAE|<!--2018-->
+|Shuyue Yu|2020--|California Institute of Technology|Pasadena, California, USA|<!--2017-->
+|Linghui Zheng|2020--|Peking University|Beijing, China|<!--2019-->
 ### Past Members
 |Name|Years|
 |---|---|
