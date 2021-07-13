@@ -13,17 +13,21 @@
 \def \Ws {}
 % Words and word combinations
 \def \Iso {en}
-\def \Tsp #1{Samples for the #1 of the\\China National Linguistics Olympiad}
-\def \Hsp #1{Samples for the #1 of the China National Linguistics Olympiad}
-\def \Tct #1#2{#1 of the\\#2 China National Linguistics Olympiad}
-\def \Hct #1#2{#1 of the #2 China National Linguistics Olympiad}
+\def \Tsp #1{Senior #1 Samples of the\\International Linguistics Olympiad, China}
+\def \Hsp #1{Senior #1 Samples of the International Linguistics Olympiad, China}
+\def \Tct #1#2{%
+  \ifpast#1 of the\\#2 International Linguistics Olympiad, China%
+  \else Senior #1 of the\\#2 International Linguistics Olympiad, China\fi}
+\def \Hct #1#2{%
+  \ifpast#1 of the #2 International Linguistics Olympiad, China%
+  \else Senior #1 of the #2 International Linguistics Olympiad, China\fi}
 \def \Mdy #1#2#3{#1 #2, #3}
 \def \Opr {Open Round}
-\def \Itr {Invitational Round}
-\def \Ivc {Individual Contest}
+\def \Ivr {Invitational Round}
+\def \Idc {Individual Contest}
 \def \Tmc {Team Contest}
-\def \Pro {Problem}
-\def \Prs {Problems}
+\def \Pbl {Problem}
+\def \Pbs {Problems}
 \def \Sol {Solution}
 \def \Sls {Solutions}
 \def \Ans {Answer Sheet}
@@ -45,9 +49,10 @@
 \def \Ptl #1{partially #1}
 \def \Wri #1#2{#1 written #2}
 \def \Wro #1#2{#1 #2}
-\def \Wrw #1#2{#1 written #2}
+\def \Wru #1#2{#1 written #2}
 \def \Ins #1{in #1}
-\def \Wit #1{with #1}
+\def \Inn {in numerals}
+\def \Usg #1{using #1}
 \def \And #1#2{#1 and #2}
 \def \Bnd #1#2{#1 and #2}
 \def \Cnd #1#2{#1 and #2}
@@ -57,7 +62,7 @@
 \def \Sua #1{their #1}
 \def \Mnt #1{most natural #1}
 \def \Psb #1{possible #1}
-\def \Ipa {IPA transcription}
+\def \Txs {phonetic transcriptions}
 \def \Trs #1{#1 translations}
 \def \Nog #1{no greater than #1}
 \def \Lss #1{less than #1}
@@ -66,25 +71,57 @@
 \def \Ths #1{these #1}
 \def \One #1{one of #1}
 \def \Etc {, etc}
+\def \Nsl {nasalization}
+\def \Slb {syllable break}
 \def \Eds {Editors}
 \def \Txt {English text}
 \def \Eic {editor-in-chief}
 \def \Ted {technical editor}
 \def \Nam {Name}
-\def \Stn {Number}
-\def \Prn {Problem \#}
+\def \Stn {Seat \#}
+\def \Pbn {Problem \#}
 \def \Pgn {Page \#}
 \def \Dne {DNE}
 \def \Otw {otherwise}
-\def \Aft #1{after #1}
-\def \Nas {a nasal}
-\def \Nsl {nasalization}
+\def \Bef #1{before a #1}
+\def \Aft #1{after a #1}
+\def \Mod #1#2{#1 #2}
+\def \Snd {sound}
+\def \Csn {consonant}
+\def \Vow {vowel}
+\def \Uvc {voiceless}
+\def \Vce {voiced}
+\def \Plo {plosive}
+\def \Nas {nasal}
 \def \Stm {stem}
+\def \Vrb {v.}
+\def \Nun {n.}
+\def \Adj {adj.}
+\def \Itr {intr.}
+\def \Tra {tr.}
+\def \Sng {singular}
 \def \Plr {plural}
+\def \Nps {npst.}
+\def \Pst {pst.}
+\def \Prs {prs.}
+\def \Nfu {nfut.}
+\def \Fut {fut.}
+\def \Dft {default}
+\def \Prg {prog.}
+\def \Ipf {ipfv.}
+\def \Pfv {pfv.}
+\def \Nom {nominative}
 \def \Acc {accusative}
+\def \Gen {genitive}
+\def \Obl {oblique}
 \def \Cmp {comparative}
 \def \Loc {locative}
-\def \Nom {nominative}
+\def \Fsg {I}
+\def \Ssg {you (sg.)}
+\def \Tsg {he}
+\def \Fpl {we}
+\def \Spl {you (pl.)}
+\def \Tpl {they}
 % Sentences
 \def \Rule {You should describe any patterns or rules that you identified in the data unless the problem explicitly instructs you otherwise.}
 \def \Gbis #1{Here is #1:}
@@ -106,18 +143,19 @@
 \def \Wrnb {Write in numerals:}
 \def \Wroa #1#2{Write #1 out in #2.}
 \def \Wrob #1{Write out in #1:}
-\def \Wrwa #1#2{Write #1 with #2.}
-\def \Wrwb #1{Write with #1:}
+\def \Wrua #1#2{Write #1 using #2.}
+\def \Wrub #1{Write using #1:}
 \def \Expa {Explain your solution.}
 \def \Alle #1{All numbers in these equalities are #1.}
 \def \Allp #1{All numbers in this problem are #1.}
 \def \Coin #1#2{The answer to #1 should coincide with #2.}
 \def \Noex {No additional explanation besides the answers is required, nor will be marked.}
 \def \Isli #1{#1 is a language isolate.}
-\def \Infm #1#2{#1 belongs to the #2 family.}
-\def \Inbr #1#2#3{#1 belongs to the #2 branch of the #3 family.}
-\def \Ingr #1#2#3{#1 belongs to the #2 group of the #3 family.}
+\def \Infm #1#2{#1 belongs to #2.}
+\def \Inbr #1#2#3{#1 belongs to #2 of #3.}
+\def \Ingr #1#2#3#4{#1 belongs to #2 of #3 of #4.}
 \def \Hist #1#2{It was spoken in #1 around \mbox{#2} years ago.}
+\def \Exti #1#2{It was spoken by the #1 ethnic groups in #2.}
 \def \Glob #1{It is spoken by approx. \mbox{#1} people all over the world.}
 \def \Stat #1#2{It is spoken by approx. \mbox{#1} people in #2.}
 \def \Ethn #1#2#3{It is spoken by approx. \mbox{#1} people of the #2 ethnic groups in #3.}
@@ -126,27 +164,45 @@
 \def \Isav #1{#1 is a vowel.}
 \def \Arev #1{#1 are vowels.}
 \def \Indi #1#2{The mark #1 indicates #2.}
-\def \Long {The mark \D{ː} indicates that the preceding vowel is long.}
+\def \Long #1{The mark #1 indicates that the preceding vowel is long.}
 \def \Dvdl {The doubling of a vowel denotes length.}
+\def \Anop #1{#1 are names of people.}
 \def \Gdlk {Good luck!}
 % Languages and scripts
 \def \TXT {\ENG}
 \def \ENG {English}
 \def \ZHO {Chinese}
 \def \LATN {the Latin script}
+\def \ARABN {Arabic numerals}
+% Families
+\def \AAV {the Austoasiatic family}
+\def \AFA {the Afro-Asiatic family}
+\def \ALV {the Atlantic-Congo family}
+\def \INE {the Indo-European family}
+\def \MAP {the Austronesian family}
+\def \SIT {the Sino-Tibetan family}
+\def \TAI {the Kra-Dai family}
+\def \TUW {the Tungusic family}
+\def \XND {the Na-Dene family}
 % Countries
 \def \AU {Australia}
 \def \BD {Bangladesh}
 \def \BO {Bolivia}
 \def \BR {Brazil}
+\def \BT {Bhutan}
 \def \CM {Cameroon}
 \def \CN {China}
 \def \DE {Germany}
 \def \FJ {Fiji}
+\def \GB {the UK}
+\def \GE {Georgia}
+\def \HU {Hungary}
 \def \ID {Indonesia}
 \def \IL {Israel}
 \def \IN {India}
+\def \KG {Kyrgyzstan}
 \def \KH {Cambodia}
+\def \LK {Sri Lanka}
 \def \MM {Myanmar}
 \def \MN {Mongolia}
 \def \MX {Mexico}
@@ -155,14 +211,21 @@
 \def \PG {Papua New Guinea}
 \def \PH {the Philippines}
 \def \RU {Russia}
+\def \RO {Romania}
+\def \SK {Slovakia}
+\def \TH {Thailand}
+\def \TJ {Tajikistan}
 \def \TZ {Tanzania}
+\def \TR {Turkey}
 \def \US {the USA}
+\def \UZ {Uzbekistan}
 \def \VN {Vietnam}
 % People
 \def \HhLi {\mbox{Huihan Li}}
 \def \YeLq {\mbox{Ye Liu}}
 \def \YyLq {\mbox{Yuyang Liu}}
 \def \YmLo {\mbox{Yiming Luo}}
+\def \OkQq {\mbox{Ao Qiu}}
 \def \YpSp {\mbox{Yupei Sun}}
 \def \ZjWh {\mbox{Ziji Wang}}
 \def \JnXu {\mbox{Jin Xu}}
