@@ -9,9 +9,11 @@ The Open Round of the Tenth CNOL was held on April 10, 2021 and the Invitational
 |Tangale|Ye Liu|
 |Yaminahua|Ziche Chen|
 ## Invitational Round
-<> (The jury awarded 268 medals (44 gold, 79 silver, and 145 bronze) out of 403 participants, as well as 42 honorable mentions and 6 best solution prizes.)
+<!--
+The jury awarded 268 medals (44 gold, 79 silver, and 145 bronze) out of 403 participants, as well as 42 honorable mentions and 6 best solution prizes.
+-->
 ### Individual Contest
-|Problem|Author|
+|Problem|Author(s)|
 |---|---|
 |Kavalan|Jin Xu|
 |Naxi|Ao Qiu, Yuyang Liu|
@@ -19,6 +21,6 @@ The Open Round of the Tenth CNOL was held on April 10, 2021 and the Invitational
 |Zhuang|Yuyang Liu, Lin Ye|
 |Dzongkha|Yuyang Liu|
 ### Team Contest
-|Problem|Author|
+|Problem|Authors|
 |---|---|
 |Hungarian|Yuyang Liu, Jin Xu|
