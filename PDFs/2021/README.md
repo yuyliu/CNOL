@@ -18,7 +18,7 @@ The jury awarded 268 medals (44 gold, 79 silver, and 145 bronze) out of 403 part
 |Kavalan|Jin Xu|
 |Naxi|Ao Qiu, Yuyang Liu|
 |Sarikoli|Yiming Luo|
-|Zhuang|Yuyang Liu, Lin Ye|
+|Zhuang and the Sawndip script|Yuyang Liu, Lin Ye|
 |Dzongkha|Yuyang Liu|
 ### Team Contest
 |Problem|Authors|
