@@ -1,7 +1,7 @@
 # 2020
 The Open Round of the Ninth CNOL was held on April 25, 2020 and the Invitational Round was held at Kang Chiao International School, Kunshan, Jiangsu, China from July 31 to August 3, 2020.
 ## Open Round
-|Problem|Author|Solvers' Choice|
+|Problem|Author(s)|Solvers' Choice|
 |---|---|---|
 |Etruscan and the Old Italic script|Yuyang Liu||
 |Ancient Greek|Zixiong Liu|Easiest|
@@ -19,6 +19,6 @@ The jury awarded 268 medals (44 gold, 79 silver, and 145 bronze) out of 403 part
 |Navajo|Ziji Wang||
 |Tangut and the Tangut script|Yiming Luo|Favorite|
 ### Team Contest
-|Problem|Author|
+|Problem|Authors|
 |---|---|
 |Zaiwa and the Fraser script|Jin Xu, Yuyang Liu|
